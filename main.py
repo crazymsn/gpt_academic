@@ -1,14 +1,12 @@
 import os; os.environ['no_proxy'] = '*' # 避免代理网络产生意外污染
 
 help_menu_description = \
-"""Github源代码开源和更新[地址🚀](https://github.com/crazymsn/gpt_academic),
+"""Github源代码更新[地址🚀](https://github.com/crazymsn/gpt_academic),
 </br></br>普通对话使用说明: 1. 输入问题; 2. 点击提交
 </br></br>基础功能区使用说明: 1. 输入文本; 2. 点击任意基础功能区按钮
 </br></br>函数插件区使用说明: 1. 输入路径/问题, 或者上传文件; 2. 点击任意函数插件区按钮
 </br></br>虚空终端使用说明: 点击虚空终端, 然后根据提示输入指令, 再次点击虚空终端
-</br></br>如何保存对话: 点击保存当前的对话按钮
-</br></br>如何语音对话: 请阅读Wiki
-</br></br>如何临时更换API_KEY: 在输入区输入临时API_KEY后提交（网页刷新后失效）"""
+</br></br>如何保存对话: 点击保存当前的对话按钮"""
 
 def main():
     import gradio as gr
